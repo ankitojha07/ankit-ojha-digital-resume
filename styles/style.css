@@ -144,6 +144,17 @@ li{
 
 }
 
+.experience{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#totalExperience{
+    font-weight: bold;
+    font-style: italic;
+}
+
 @media(max-width:600px){
 
     .section--page{
