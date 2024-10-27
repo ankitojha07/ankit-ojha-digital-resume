@@ -1,200 +1,321 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ankit Ojha</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style.css" />
 
     <script src="https://d3o97d2kmbde2k.cloudfront.net/lex-web-ui-loader.min.js"></script>
-<script>
-  var loaderOpts = {
-    baseUrl: 'https://d3o97d2kmbde2k.cloudfront.net/',
-    shouldLoadMinDeps: true
-  };
-  var loader = new ChatBotUiLoader.IframeLoader(loaderOpts);
-  var chatbotUiConfig = {
-          lex: {
-            sessionAttributes: {
-              userAgent: navigator.userAgent,
-              QNAClientFilter: ''
-            }
-          }
-          
-        };
-  loader.load(chatbotUiConfig)
-    .catch(function (error) { console.error(error); });
-</script>
-
-</head>
-<body>
-   <div class="container--main">
-    <section id="wrapper--hero" class="section--page">
-        <img id="profile-pic" src="./assets/images/image.jpg">
+    <script>
+      var loaderOpts = {
+        baseUrl: "https://d3o97d2kmbde2k.cloudfront.net/",
+        shouldLoadMinDeps: true,
+      };
+      var loader = new ChatBotUiLoader.IframeLoader(loaderOpts);
+      var chatbotUiConfig = {
+        lex: {
+          sessionAttributes: {
+            userAgent: navigator.userAgent,
+            QNAClientFilter: "",
+          },
+        },
+      };
+      loader.load(chatbotUiConfig).catch(function (error) {
+        console.error(error);
+      });
+    </script>
+  </head>
+  <body>
+    <div class="container--main">
+      <section id="wrapper--hero" class="section--page">
+        <img id="profile-pic" src="./assets/images/image.jpg" />
 
         <div>
-            <h1 id="user-name">Ankit Ojha</h1>
-            
-            <p id="bio">
-                Dedicated Frontend Developer with a year of
-                professional experience. Proficient in Java, Kotlin, Javascript,
-                React JS, React Native, HTML5 and CSS3. Demonstrated ability in
-                developing, debugging, firmware testing, and
-                system optimization.
-                <br>
-                <br>
-                I am also an <a href="https://www.youtube.com/@ankitojhacoding" target="_blank">YouTuber</a> with 1.5k+ subscribers.</p>
-            <p id="email">👉 ankitojha1409.com</p>
-        </div>  
-    </section>
+          <h1 id="user-name">Ankit Ojha</h1>
 
-    <section class="section--page">
-
-        <div id="socials--list">
-            <a href="https://youtube.com/@ankitojhacoding" target="_blank">Youtube</a>
-            <a href="https://twitter.com/ankitojhacoding" target="_blank">Twitter</a>
-            <a href="https://www.linkedin.com/in/ankit0jha/" target="_blank">Linkedin</a>
-            <a href="https://github.com/ankitojha07" target="_blank">Github</a>
-            <a href="./assets/resume.pdf" target="_blank">Download Resume</a>
+          <p id="bio">
+            Dedicated Full Stack Developer with a year of professional
+            experience. Proficient in Javascript, Typescript, C++, React JS,
+            Node JS, Express JS, MongoDB, HTML5, CSS3, Tailwind CSS, Git and
+            Github. Demonstrated ability in developing, debugging, testing, and
+            system optimization.
+            <br />
+            <br />
+            I am also an
+            <a href="https://www.youtube.com/@Codewith_Coffee" target="_blank"
+              >YouTuber</a
+            >
+            with 1.7k+ subscribers.
+          </p>
+          <p id="email">👉 ankitojha1409.com</p>
         </div>
-    </section>
+      </section>
 
-    <section class="section--page">
+      <section class="section--page">
+        <div id="socials--list">
+          <a href="https://www.youtube.com/@Codewith_Coffee" target="_blank"
+            >Youtube</a
+          >
+          <a href="https://twitter.com/ankitojha_07" target="_blank">Twitter</a>
+          <a href="https://www.linkedin.com/in/ankit0jha/" target="_blank"
+            >Linkedin</a
+          >
+          <a href="https://github.com/ankitojha07" target="_blank">Github</a>
+          <a href="./assets/resume.pdf" target="_blank">Download Resume</a>
+        </div>
+      </section>
+
+      <section class="section--page">
         <h2>Skills & Qualifications</h2>
         <ul id="qualifications--list">
-            <li>✔️ 1 Year experience with chatbot development.</li>
-            <li>✔️ Hands-On experience in frontend development (React JS, Next JS and Tailwind CSS).</li>
-            <li>✔️ Extensive knowledge in API & Database Design.</li>
-            <li>✔️ Content creator on YouTube. </li>
-            <li>✔️ Mobile App development (Android and Cross Platform Applications).</li>
-            <li>✔️ Freelance UI Designer (Figma).</li>
+          <li>✔️ 1.3 Years of experience with chatbot development.</li>
+          <li>
+            ✔️ Hands-On experience in frontend development (React JS, Next JS
+            and Tailwind CSS).
+          </li>
+          <li>
+            ✔️ Full-Stack development in (Node JS, Express JS and MongoDB).
+          </li>
+          <li>✔️ Extensive knowledge in API & Database Design.</li>
+          <li>
+            ✔️ Mobile App development (Android and Cross Platform Applications).
+          </li>
+          <li>
+            ✔️ Experience with tools - Postman, GitHub, Azure, AWS, Docker,
+            kubernetes.
+          </li>
+          <li>✔️ Content creator on YouTube.</li>
+          <li>✔️ Freelance UI Designer (Figma).</li>
         </ul>
-    </section>  
+      </section>
 
-    <section class="section--page">
+      <section class="section--page">
         <h2>Tech stack</h2>
-    
+
         <div id="wrapper--techstack__items">
-            <div class="card--techstack"><span>React JS, Next JS, Typescript, Tailwind CSS</span></div>
-            <div class="card--techstack"><span>C++, Java, Python</span></div>
-            <div class="card--techstack"><span>JavaScript, NodeJS</span></div>
-            <div class="card--techstack"><span>MongoDB, MySQL</span></div>
-            <div class="card--techstack"><span>Git & GitHub, Jenkins</span></div>
-            <div class="card--techstack"><span>Linux CLI</span></div>
-            <div class="card--techstack"><span>POSTMAN</span></div>
+          <div class="card--techstack"><span>JavaScript, Typescript</span></div>
+          <div class="card--techstack">
+            <span>React.js, Express.js, Node.js, MongoDB</span>
+          </div>
+          <div class="card--techstack"><span>C++, Java, Python</span></div>
+          <div class="card--techstack"><span>Git & GitHub, Jenkins</span></div>
+          <div class="card--techstack">
+            <span>AWS Cloud, Docker, Kubernetes</span>
+          </div>
+          <div class="card--techstack"><span>Linux CLI</span></div>
+          <div class="card--techstack"><span>POSTMAN</span></div>
+          <div class="card--techstack"><span>VS Code, Vim</span></div>
         </div>
-    </section>
+      </section>
 
-    <section id="work-history-wrapper" class="section--page">
+      <section id="work-history-wrapper" class="section--page">
         <h2>Work History</h2>
-    
+
         <div class="line-break"></div>
         <div class="card--work-history">
-            <strong>🚧 CHATBOT DEVELOPER | LEENA.AI</strong>
-            <div class="experience">
-                <p>08/2023 - Present</p>
-                <p id="totalExperience">year(s) and month(s).</p>
-            </div>
-            <p>Designing and managing the conversation flow for the Chatbot. Utilizing knowledge of Javascript and JSON to configure dynamic APIs. Developed multiple Proof of Concepts (POCs) for prominent clients, demonstrating the feasibility and
-                effectiveness of proposed solutions. </p>
-            <ul>
-                <li>Developed multiple Proof of Concepts (POCs) for prominent clients, demonstrating the feasibility and effectiveness of proposed solutions. </li>
-                <li>Responsible for Bot setup and integration with different platforms like MS Teams, Slack, Telegram, Whatsapp, and Web Configuration.</li>
-                <li>Designing Conversation flow for Chatbots.</li>
-                <li>Tools which I'm using on a regular basis are MS Azure, Postman, VS Code, MS Teams developer Portal, Draw io, LucidChart, Python, JavaScript, Excel, and Atlassian Jira 🪐</li>
-                <li>Utilized JIRA and Confluence for task tracking, project management, and team collaboration.</li>
-               <li> Exploring the field of Machine Learning and AI, Natural Language Processing (NLP), and mastering the concepts of programming (C++, Data Structures and Algorithms).</li>
-            </ul>
-        </div>
-    
-        <div class="line-break"></div>
-    
-        <div class="card--work-history">
-            <strong>🚧 INSTRUCTOR | YOUTUBE</strong>
-            <p>10/2022 - Present</p>
-            <p>Produced content showcasing new tech, tutorials & interviews with top developers.</p>
-            <ul>
-                <li>1500+ Youtube Subscribers</li>
-                <li>Tutorial videos included projects such as weather apps, chrome plugins development, website Designing and more </li>
-            </ul>
+          <strong>🚧 CHATBOT DEVELOPER | LEENA.AI</strong>
+          <div class="experience">
+            <p>08/2023 - Present</p>
+            <p id="totalExperience">year(s) and month(s).</p>
+          </div>
+          <p>
+            Designing and managing the conversation flow for the Chatbot.
+            Utilizing knowledge of Javascript and JSON to configure dynamic
+            APIs. Developed multiple Proof of Concepts (POCs) for prominent
+            clients, demonstrating the feasibility and effectiveness of proposed
+            solutions.
+          </p>
+          <ul>
+            <li>
+              Developed multiple Proof of Concepts (POCs) for prominent clients,
+              demonstrating the feasibility and effectiveness of proposed
+              solutions.
+            </li>
+            <li>
+              Responsible for Bot setup and integration with different platforms
+              like MS Teams, Slack, Telegram, Whatsapp, and Web Configuration.
+            </li>
+            <li>Designing Conversation flow for Chatbots.</li>
+            <li>
+              Tools which I'm using on a regular basis are MS Azure, Postman, VS
+              Code, MS Teams developer Portal, Draw io, LucidChart, Python,
+              JavaScript, Excel, and Atlassian Jira 🪐
+            </li>
+            <li>
+              Utilized JIRA and Confluence for task tracking, project
+              management, and team collaboration.
+            </li>
+            <li>
+              Exploring the field of Machine Learning and AI, Natural Language
+              Processing (NLP), and mastering the concepts of programming (C++,
+              Data Structures and Algorithms).
+            </li>
+          </ul>
         </div>
 
         <div class="line-break"></div>
 
         <div class="card--work-history">
-            <strong>🚧 FREELANCE UI DESIGNER | FIVERR</strong>
-            <p>2022 - 2023</p>
-            <p>Started a freelance service designing websites and mobile UI for
-                small businesses. Completed 3 successful contracts and got 5* rating for my work..</p>
-            <ul>
-                <li>Experience designing user interfaces for mobile and web applications</li>
-                <li>Developed UI design for a taxi service application</li>
-                <li>Created engaging and user-friendly website designs for makeup artists</li>
-                <li>Ability to create responsive and adaptive design layouts.</li>
-                <li>Skilled in wireframing and prototyping</li>
-                <li>Excellent collaboration and communication skills with clients and development teams</li>
-            </ul>
+          <strong>🚧 INSTRUCTOR | YOUTUBE</strong>
+          <p>10/2022 - Present</p>
+          <p>
+            Produced content showcasing new tech, tutorials & interviews with
+            top developers.
+          </p>
+          <ul>
+            <li>1500+ Youtube Subscribers</li>
+            <li>
+              Tutorial videos included projects such as weather apps, chrome
+              plugins development, website Designing and more
+            </li>
+          </ul>
         </div>
-    
-        <div class="line-break"></div>
-    
-        <div class="card--work-history">
-            <strong>🚧 WEB DEVELOPER & LEAD DESIGNER | GEEKSFORGEEKS-LPU</strong>
-            <p>04/2021 - 07/2023</p>
-            <p>Designed and developed the official website for GeeksforGeeks-LPU college community.</p>
-            <ul>
-                <li>Designed 50+ posters and banners for community events</li>
-                <li>Led and managed a graphic team, providing guidance, and coordination to ensure successful completion of projects</li>
-                <li>Coordinated and organized 10+ events, including designing promotional materials, managing social media graphics</li>
-                <li>Helped Social Media management team to gain better reach.</li>
-            </ul>
-        </div>
-    
-        <div class="line-break"></div>
-    
-        <div class="card--work-history">
-            <strong>🚧 LEAD GRAPHIC DESIGNER | AWS CLOUD COMMUNITY LPU</strong>
-            <p>2021 - 2023</p>
-            <p>Worked as a lead graphic designer, designed 100+ enevnt posters and banners for community.</p>
-            <ul>
-                <li>Contributed to the official community website development.</li>
-                <li>Worked on AWS S3 bucket and EC2 instance and hosted a session on AWS Amplify.</li>
-                <li>Learned Web Development Framework ReactJS during my tenure</li>
-            </ul>
-        </div>
-        
-    </section>
 
-    <section class="section--page">
+        <div class="line-break"></div>
+
+        <div class="card--work-history">
+          <strong>🚧 FREELANCE UI DESIGNER | FIVERR</strong>
+          <p>2022 - 2023</p>
+          <p>
+            Started a freelance service designing websites and mobile UI for
+            small businesses. Completed 3 successful contracts and got 5* rating
+            for my work..
+          </p>
+          <ul>
+            <li>
+              Experience designing user interfaces for mobile and web
+              applications
+            </li>
+            <li>Developed UI design for a taxi service application</li>
+            <li>
+              Created engaging and user-friendly website designs for makeup
+              artists
+            </li>
+            <li>Ability to create responsive and adaptive design layouts.</li>
+            <li>Skilled in wireframing and prototyping</li>
+            <li>
+              Excellent collaboration and communication skills with clients and
+              development teams
+            </li>
+          </ul>
+        </div>
+
+        <div class="line-break"></div>
+
+        <div class="card--work-history">
+          <strong>🚧 WEB DEVELOPER & LEAD DESIGNER | GEEKSFORGEEKS-LPU</strong>
+          <p>04/2021 - 07/2023</p>
+          <p>
+            Designed and developed the official website for GeeksforGeeks-LPU
+            college community.
+          </p>
+          <ul>
+            <li>Designed 50+ posters and banners for community events</li>
+            <li>
+              Led and managed a graphic team, providing guidance, and
+              coordination to ensure successful completion of projects
+            </li>
+            <li>
+              Coordinated and organized 10+ events, including designing
+              promotional materials, managing social media graphics
+            </li>
+            <li>Helped Social Media management team to gain better reach.</li>
+          </ul>
+        </div>
+
+        <div class="line-break"></div>
+
+        <div class="card--work-history">
+          <strong>🚧 LEAD GRAPHIC DESIGNER | AWS CLOUD COMMUNITY LPU</strong>
+          <p>2021 - 2023</p>
+          <p>
+            Worked as a lead graphic designer, designed 100+ enevnt posters and
+            banners for community.
+          </p>
+          <ul>
+            <li>Contributed to the official community website development.</li>
+            <li>
+              Worked on AWS S3 bucket and EC2 instance and hosted a session on
+              AWS Amplify.
+            </li>
+            <li>Learned Web Development Framework ReactJS during my tenure</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section--page">
         <h2>Projects & Accomplishments</h2>
 
         <div class="card--project">
-            <a href="https://shop-by-choice.netlify.app/" target="_blank"><span>🏆 </span>An <span style="font-weight: bold;">E-Commerce application</span> in next js with Add-To-Cart Functionality and User Sign In / Sign Up.</a>
+          <a href="https://e-commerce-ankit.vercel.app/" target="_blank"
+            ><span>🏆 </span>An
+            <span style="font-weight: bold"
+              >Full Stack E-Commerce application (MERN)</span
+            >
+            in MongoDB, Express JS, React JS, Node JS.</a
+          >
         </div>
-    
         <div class="card--project">
-            <a href="https://grammarly-live.vercel.app/" target="_blank"><span>🏆 </span>Built a Next JS Web App to correct Grammatrical Mistakes from Sentences/Paragraphs.</a>
+          <a
+            href="https://ankitojha07.github.io/ankitojha-portfolio/"
+            target="_blank"
+            ><span>🏆 </span>A
+            <span style="font-weight: bold">Portfolio Website</span> in HTML,
+            CSS, Javascript.</a
+          >
+        </div>
+        <div class="card--project">
+          <a href="https://shop-by-choice.netlify.app/" target="_blank"
+            ><span>🏆 </span>An
+            <span style="font-weight: bold"
+              >Frontend E-Commerce application (React)</span
+            >
+            in next js with Add-To-Cart Functionality and User Sign In / Sign
+            Up.</a
+          >
         </div>
 
         <div class="card--project">
-            <a href="https://github.com/ankitojha07/Dashboard-React" target="_blank"><span>🏆 </span>Dashboard in React JS - Google Sign in Auth and Charts.js.</a>
+          <a href="https://grammarly-live.vercel.app/" target="_blank"
+            ><span>🏆 </span>Built a Next JS Web App to correct Grammatrical
+            Mistakes from Sentences/Paragraphs.</a
+          >
         </div>
-    
-        <div class="card--project">
-            <a href="https://geeksforgeeks-lpu.netlify.app/" target="_blank"><span>🏆 </span>Official website - Redesigned and developed GeeksforGeeks LPU Official Website.</a>
-        </div>
-    
-        <div class="card--project">
-            <a href="https://github.com/ankitojha07/gymers_gym_react_webApp" target="_blank" ><span>🏆 </span>Gym Website for local gym owners.</a>
-        </div>
-    
-        <div class="card--project">
-            <a href="https://github.com/ankitojha07/The_Travel_Mate" target="_blank"><span>🏆 </span>Travel Mate - android application.</a>
-        </div>
-    
-    </section>
 
-   </div>
-</body>
-<script src="/app.js"></script>
+        <div class="card--project">
+          <a
+            href="https://github.com/ankitojha07/Dashboard-React"
+            target="_blank"
+            ><span>🏆 </span>Dashboard in React JS - Google Sign in Auth and
+            Charts.js.</a
+          >
+        </div>
+
+        <div class="card--project">
+          <a href="https://geeksforgeeks-lpu.netlify.app/" target="_blank"
+            ><span>🏆 </span>Official website - Redesigned and developed
+            GeeksforGeeks LPU Official Website.</a
+          >
+        </div>
+
+        <div class="card--project">
+          <a
+            href="https://github.com/ankitojha07/gymers_gym_react_webApp"
+            target="_blank"
+            ><span>🏆 </span>Gym Website for local gym owners.</a
+          >
+        </div>
+
+        <div class="card--project">
+          <a
+            href="https://github.com/ankitojha07/The_Travel_Mate"
+            target="_blank"
+            ><span>🏆 </span>Travel Mate - android application.</a
+          >
+        </div>
+      </section>
+    </div>
+  </body>
+  <script src="/app.js"></script>
 </html>
